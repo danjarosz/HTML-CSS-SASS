@@ -8,6 +8,7 @@ body {
   max-width: 1180px;
   padding: 0 10px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 h1.logo {
@@ -220,4 +221,24 @@ footer a {
 
 /* mobiles */
 @media screen and (max-width: 480px) {
+  #featured li {
+    width: 90%;
+    margin: 20px 5%;
+  }
+
+  footer ul {
+    width: 98%;
+  }
+
+  #home-menu li {
+    float: none;
+    width: 96%;
+    margin: 30px 2% !important;
+  }
+
+  #main-banner img {
+    width: 180%;
+    position: relative;
+    left: -40%;
+  }
 }
