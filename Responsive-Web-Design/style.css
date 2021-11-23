@@ -180,3 +180,44 @@ footer a {
   color: #eee;
   text-decoration: none;
 }
+
+/* MEDIA */
+
+/* tablets */
+@media screen and (max-width: 768px) {
+  header nav {
+    float: none;
+    clear: left;
+    width: 100%;
+  }
+
+  header nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+    width: 20%;
+    padding: 0;
+    text-align: center;
+  }
+
+  h1.logo {
+    margin: 10px auto;
+    float: none;
+  }
+
+  #featured li {
+    width: 48%;
+  }
+
+  footer ul {
+    width: 48%;
+    text-align: center;
+  }
+}
+
+/* mobiles */
+@media screen and (max-width: 480px) {
+}
