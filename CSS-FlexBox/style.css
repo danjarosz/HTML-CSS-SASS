@@ -12,3 +12,35 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.box {
+  height: 100px;
+  flex-basis: 200px;
+  /* min-width: 200px; */
+  flex-grow: 1;
+  /* width: 320px; */
+}
+
+.one {
+  background-color: tomato;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+}
+
+.two {
+  background-color: darkcyan;
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+}
+
+.three {
+  background-color: darkolivegreen;
+  /* flex-grow: 3; */
+  /* flex-shrink: 3; */
+}
