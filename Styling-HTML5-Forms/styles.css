@@ -49,6 +49,31 @@ input:checked + label[for="female"] {
 
 /* 3 - CHECKBOX STYLES  */
 
+input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  margin: 0;
+}
+
+label[for="web"],
+label[for="photoshop"],
+label[for="madona"] {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-left: 26px;
+  background: url("./img/checks.png") no-repeat;
+  background-position: 0 -98px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+input:checked + label[for="web"],
+input:checked + label[for="photoshop"],
+input:checked + label[for="madona"] {
+  background-position: 0 -65px;
+  color: #ce1010;
+}
+
 /* 4 - TEXT INPUT STYLES & FIELDSETS */
 
 /* 5 - SELECT BOXES */
