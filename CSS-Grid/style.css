@@ -19,6 +19,8 @@ body {
   /* gap: 5% 10px; */
   /* row-gap: 2%; */
   /* column-gap: 5px; */
+  /* align-items: stretch; */
+  /* justify-items: stretch; */
   max-width: 960px;
   min-height: 100vh;
   margin: 0 auto;
@@ -30,6 +32,8 @@ body {
 
 header {
   /* grid-column: span 3; */
+  /* justify-self: start; */
+  /* align-self: start; */
   grid-area: header;
   background: #3bbced;
 }
