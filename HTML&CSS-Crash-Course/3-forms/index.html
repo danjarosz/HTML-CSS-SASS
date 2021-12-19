@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+    <form>
+      <label>
+        <span>User name</span>
+        <input type="text" name="username" placeholder="name" required />
+      </label>
+      <br />
+      <label>
+        <span>e-mail</span>
+        <input type="email" name="email" required />
+      </label>
+      <br />
+      <label>
+        <span>Password</span>
+        <input type="password" name="password" />
+      </label>
+      <br />
+      <p>Select your name:</p>
+      <label>
+        <input type="radio" name="age" value="0-25" />
+        <span>0-25</span>
+      </label>
+      <label>
+        <input type="radio" name="age" value="26-50" />
+        <span>26-50</span>
+      </label>
+      <label>
+        <input type="radio" name="age" value="51-75" />
+        <span>51-75</span>
+      </label>
+      <label>
+        <input type="radio" name="age" value="76-100" />
+        <span>76-100</span>
+      </label>
+      <br /><br />
+      <label>
+        <span>Security question:</span>
+        <select name="security_question">
+          <option value="1">Question 1</option>
+          <option value="2">Question 2</option>
+          <option value="3">question 3</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label>
+        <p>Eneter your bio:</p>
+        <textarea
+          name="bio"
+          cols="30"
+          rows="10"
+          placeholder="Enter your bio..."
+        ></textarea>
+      </label>
+
+      <br /><br />
+      <input type="submit" value="Submit the form" />
+    </form>
+  </body>
+</html>
