@@ -1,6 +1,6 @@
 body {
-  font-family: arial;
-  background: #f8f9fb;
+    font-family: arial;
+    background: #f8f9fb;
 }
 
 html,
@@ -11,8 +11,8 @@ li,
 form,
 fieldset,
 legend {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -22,200 +22,201 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 fieldset,
 img {
-  border: 0;
+    border: 0;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 .wrapper {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* VARIABLES */
 #main-nav {
-  background-color: #032f3e;
+    background-color: #032f3e;
 }
 
 #main-nav ul {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
 }
 
 #main-nav li {
-  -ms-flex-preferred-size: calc(100% / 6);
-      flex-basis: calc(100% / 6);
+    -ms-flex-preferred-size: calc(100% / 6);
+    flex-basis: calc(100% / 6);
 }
 
 #main-nav a {
-  color: #f8f9fb;
-  text-decoration: none;
-  display: block;
-  padding: 16px;
-  text-align: center;
-  -webkit-transition: color 0.3s, background-color 0.3s;
-  transition: color 0.3s, background-color 0.3s;
+    color: #f8f9fb;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    text-align: center;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
 }
 
 #main-nav a:hover {
-  background-color: #f8f9fb;
-  color: #032f3e;
+    background-color: #f8f9fb;
+    color: #032f3e;
 }
 
 section h1 {
-  font-size: 24px;
-  color: #032f3e;
+    font-size: 24px;
+    color: #032f3e;
 }
 
 .lead-banner {
-  width: 100%;
-  position: relative;
-  color: #fff;
-  text-align: right;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    text-align: right;
 }
 
 .lead-banner .banner-content {
-  position: absolute;
-  top: 50px;
-  width: 100%;
+    position: absolute;
+    top: 50px;
+    width: 100%;
 }
 
 .lead-banner img {
-  width: 100%;
+    width: 100%;
 }
 
 .lead-banner span {
-  font-size: 42px;
-  display: block;
-  text-transform: uppercase;
-  font-weight: bold;
+    font-size: 42px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .lead-banner span.title {
-  font-weight: normal;
-  margin-bottom: 30px;
+    font-weight: normal;
+    margin-bottom: 30px;
 }
 
 .lessons-banner {
-  width: 100%;
-  position: relative;
-  color: #fff;
+    width: 100%;
+    position: relative;
+    color: #fff;
 }
 
 .lessons-banner .banner-content {
-  position: absolute;
-  top: 50px;
-  width: 100%;
+    position: absolute;
+    top: 50px;
+    width: 100%;
 }
 
 .lessons-banner img {
-  width: 100%;
+    width: 100%;
 }
 
 .lessons-banner span {
-  font-size: 42px;
-  display: block;
-  text-transform: uppercase;
-  font-weight: bold;
+    font-size: 42px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .lessons-banner span.title {
-  font-weight: normal;
-  margin-bottom: 30px;
+    font-weight: normal;
+    margin-bottom: 30px;
 }
 
 .lessons-banner li {
-  text-transform: uppercase;
-  font-size: 20px;
-  max-width: 500px;
-  margin: 60px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    max-width: 500px;
+    margin: 60px 0;
 }
 
 #services {
-  margin: 60px 0;
+    margin: 60px 0;
 }
 
 #services ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 #services li {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: center;
-  -ms-flex-preferred-size: calc(100% / 3);
-      flex-basis: calc(100% / 3);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    -ms-flex-preferred-size: calc(100% / 3);
+    flex-basis: calc(100% / 3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 #services img {
-  width: 60%;
+    width: 60%;
 }
 
 #services a {
-  text-decoration: none;
-  color: #032f3e;
-  font-weight: bold;
+    text-decoration: none;
+    color: #032f3e;
+    font-weight: bold;
 }
 
 #services a:hover {
-  color: red;
+    color: red;
 }
 
 #projects ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 #projects li {
-  display: block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-  padding: 2px 4px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    padding: 2px 4px;
 }
 
 #projects li img {
-  width: 100%;
+    width: 100%;
 }
-/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=style.css.map */
