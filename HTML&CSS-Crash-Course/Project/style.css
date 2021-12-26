@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: #F63232;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    color: #fff;
+    border: 8px solid #fff;
+    padding: 6px 12px;
+    border-radius: 36px;
+    line-height: 1;
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .welcome {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    padding: 30px;
+    background-color: #FEB614;
+    color: #FFF;
+}
+
+.banner h2 {
+    font-size: 3rem;
+}
+
+.banner h2 span {
+    font-size: 4rem;
+}
+
+nav {
+    background-color: #F4F4F4;
+    padding: 20px;
+    position: sticky;
+    top: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    flex-basis: 25%;
+    font-size: 24px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+nav li a.join {
+    color: #F63232;
+}
+
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+
+article h2 {
+    color: #F63232;
+    font-size: 48px;
+}
+
+article p {
+    line-height: 2;
+    color: #4b4b4b;
+}
+
+.images {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0;
+}
+
+.images li {
+    flex-basis: 40%;
+}
+
+.images li:hover {
+    position: relative;
+    top: -4px;
+}
+
+.images li img {
+    width: 100%;
+}
+
+section.join {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+
+section.join h2 {
+    font-size: 36px;
+}
+
+section.join form input {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid #fff;
+}
+
+section.join form input:focus {
+    border: 4px dashed #4b4b4b;
+    outline: none;
+}
+
+section.join form input:valid {
+    border: 4px solid #71d300;
+}
+
+footer {
+    background-color: #f63232;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+p::selection {
+    color: #fff;
+    background-color: #F63232;
+}
+
+
