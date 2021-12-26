@@ -161,4 +161,14 @@ p::selection {
     background-color: #F63232;
 }
 
+/*responsive styles*/
 
+@media screen and (max-width: 1400px) {
+    .banner .welcome h2 {
+        font-size: 48px;
+    }
+
+    nav li {
+        font-size: 18px;
+    }
+}
